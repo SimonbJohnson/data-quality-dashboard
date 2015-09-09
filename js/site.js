@@ -120,7 +120,7 @@ function getURL() {
     return  window.location.href.split('url=')[1].split('&')[0];
 }
 
-var url ='http://proxy.hxlstandard.org/data.json?filter_count=7&url='+getURL()+'&format=html&filter01=&filter02=&filter03=&filter04=&filter05=&filter06=&filter07=&force=1' ;
+var url ='http://proxy.hxlstandard.org/data.json?filter_count=7&url='+getURL()+'&format=html&filter01=&filter02=&filter03=&filter04=&filter05=&filter06=&filter07=' ;
 console.log(url); 
 $.ajax(url, {
     success: function(data) {
